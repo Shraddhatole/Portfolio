@@ -1,0 +1,221 @@
+{
+ "sample": true,
+ "note": "SAMPLE series shaped to the published ShellScope narrative. Replace via scripts/export_playground_data.py.",
+ "ruleDate": "2025-11",
+ "ruleLabel": "ID verification mandatory (18 Nov 2025)",
+ "months": [
+  {
+   "month": "2023-01",
+   "incorporations": 66960
+  },
+  {
+   "month": "2023-02",
+   "incorporations": 62180
+  },
+  {
+   "month": "2023-03",
+   "incorporations": 66102
+  },
+  {
+   "month": "2023-04",
+   "incorporations": 60664
+  },
+  {
+   "month": "2023-05",
+   "incorporations": 62720
+  },
+  {
+   "month": "2023-06",
+   "incorporations": 61642
+  },
+  {
+   "month": "2023-07",
+   "incorporations": 64342
+  },
+  {
+   "month": "2023-08",
+   "incorporations": 61362
+  },
+  {
+   "month": "2023-09",
+   "incorporations": 63440
+  },
+  {
+   "month": "2023-10",
+   "incorporations": 65529
+  },
+  {
+   "month": "2023-11",
+   "incorporations": 62524
+  },
+  {
+   "month": "2023-12",
+   "incorporations": 57582
+  },
+  {
+   "month": "2024-01",
+   "incorporations": 69293,
+   "yoy": 3.5
+  },
+  {
+   "month": "2024-02",
+   "incorporations": 64340,
+   "yoy": 3.5
+  },
+  {
+   "month": "2024-03",
+   "incorporations": 68391,
+   "yoy": 3.5
+  },
+  {
+   "month": "2024-04",
+   "incorporations": 62759,
+   "yoy": 3.5
+  },
+  {
+   "month": "2024-05",
+   "incorporations": 64880,
+   "yoy": 3.4
+  },
+  {
+   "month": "2024-06",
+   "incorporations": 63759,
+   "yoy": 3.4
+  },
+  {
+   "month": "2024-07",
+   "incorporations": 66545,
+   "yoy": 3.4
+  },
+  {
+   "month": "2024-08",
+   "incorporations": 63457,
+   "yoy": 3.4
+  },
+  {
+   "month": "2024-09",
+   "incorporations": 65600,
+   "yoy": 3.4
+  },
+  {
+   "month": "2024-10",
+   "incorporations": 67753,
+   "yoy": 3.4
+  },
+  {
+   "month": "2024-11",
+   "incorporations": 64641,
+   "yoy": 3.4
+  },
+  {
+   "month": "2024-12",
+   "incorporations": 59526,
+   "yoy": 3.4
+  },
+  {
+   "month": "2025-01",
+   "incorporations": 71626,
+   "yoy": 3.4
+  },
+  {
+   "month": "2025-02",
+   "incorporations": 66500,
+   "yoy": 3.4
+  },
+  {
+   "month": "2025-03",
+   "incorporations": 70681,
+   "yoy": 3.3
+  },
+  {
+   "month": "2025-04",
+   "incorporations": 64854,
+   "yoy": 3.3
+  },
+  {
+   "month": "2025-05",
+   "incorporations": 67040,
+   "yoy": 3.3
+  },
+  {
+   "month": "2025-06",
+   "incorporations": 65876,
+   "yoy": 3.3
+  },
+  {
+   "month": "2025-07",
+   "incorporations": 68748,
+   "yoy": 3.3
+  },
+  {
+   "month": "2025-08",
+   "incorporations": 73419,
+   "yoy": 15.7
+  },
+  {
+   "month": "2025-09",
+   "incorporations": 75891,
+   "yoy": 15.7
+  },
+  {
+   "month": "2025-10",
+   "incorporations": 78376,
+   "yoy": 15.7
+  },
+  {
+   "month": "2025-11",
+   "incorporations": 66758,
+   "yoy": 3.3
+  },
+  {
+   "month": "2025-12",
+   "incorporations": 60732,
+   "yoy": 2
+  },
+  {
+   "month": "2026-01",
+   "incorporations": 72183,
+   "yoy": 0.8
+  },
+  {
+   "month": "2026-02",
+   "incorporations": 66188,
+   "yoy": -0.5
+  },
+  {
+   "month": "2026-03",
+   "incorporations": 69468,
+   "yoy": -1.7
+  },
+  {
+   "month": "2026-04",
+   "incorporations": 62932,
+   "yoy": -3
+  },
+  {
+   "month": "2026-05",
+   "incorporations": 64218,
+   "yoy": -4.2
+  },
+  {
+   "month": "2026-06",
+   "incorporations": 62281,
+   "yoy": -5.5
+  },
+  {
+   "month": "2026-07",
+   "incorporations": 64140,
+   "yoy": -6.7
+  },
+  {
+   "month": "2026-08",
+   "incorporations": 60342,
+   "yoy": -17.8
+  },
+  {
+   "month": "2026-09",
+   "incorporations": 61530,
+   "yoy": -18.9
+  }
+ ]
+}

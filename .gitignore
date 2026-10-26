@@ -1,0 +1,8 @@
+node_modules
+dist
+.DS_Store
+
+# local reference material
+Shraddha_Tole.pdf
+colour_pallete_ref.jpeg
+reference_doc.txt

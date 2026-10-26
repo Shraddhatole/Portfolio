@@ -1,0 +1,736 @@
+{
+ "sample": true,
+ "note": "SAMPLE curve anchored to published FraudLens results (t=0.44, t=0.50). Replace via scripts/export_playground_data.py.",
+ "chosenThreshold": 0.44,
+ "baselineCost": 1130000,
+ "rows": [
+  {
+   "threshold": 0.05,
+   "recall": 97,
+   "falseAlarmsPer1k": 29.31,
+   "reviewCost": 146422,
+   "missedFraud": 11309,
+   "totalCost": 157731
+  },
+  {
+   "threshold": 0.06,
+   "recall": 96.9,
+   "falseAlarmsPer1k": 26.28,
+   "reviewCost": 133032,
+   "missedFraud": 11480,
+   "totalCost": 144512
+  },
+  {
+   "threshold": 0.07,
+   "recall": 96.9,
+   "falseAlarmsPer1k": 23.68,
+   "reviewCost": 121503,
+   "missedFraud": 11654,
+   "totalCost": 133157
+  },
+  {
+   "threshold": 0.08,
+   "recall": 96.8,
+   "falseAlarmsPer1k": 21.44,
+   "reviewCost": 111554,
+   "missedFraud": 11830,
+   "totalCost": 123384
+  },
+  {
+   "threshold": 0.09,
+   "recall": 96.7,
+   "falseAlarmsPer1k": 19.5,
+   "reviewCost": 102949,
+   "missedFraud": 12009,
+   "totalCost": 114958
+  },
+  {
+   "threshold": 0.1,
+   "recall": 96.7,
+   "falseAlarmsPer1k": 17.82,
+   "reviewCost": 95485,
+   "missedFraud": 12190,
+   "totalCost": 107675
+  },
+  {
+   "threshold": 0.11,
+   "recall": 96.6,
+   "falseAlarmsPer1k": 16.35,
+   "reviewCost": 88994,
+   "missedFraud": 12374,
+   "totalCost": 101368
+  },
+  {
+   "threshold": 0.12,
+   "recall": 96.5,
+   "falseAlarmsPer1k": 15.08,
+   "reviewCost": 83331,
+   "missedFraud": 12561,
+   "totalCost": 95892
+  },
+  {
+   "threshold": 0.13,
+   "recall": 96.4,
+   "falseAlarmsPer1k": 13.96,
+   "reviewCost": 78374,
+   "missedFraud": 12751,
+   "totalCost": 91125
+  },
+  {
+   "threshold": 0.14,
+   "recall": 96.4,
+   "falseAlarmsPer1k": 12.98,
+   "reviewCost": 74019,
+   "missedFraud": 12944,
+   "totalCost": 86963
+  },
+  {
+   "threshold": 0.15,
+   "recall": 96.3,
+   "falseAlarmsPer1k": 12.11,
+   "reviewCost": 70178,
+   "missedFraud": 13139,
+   "totalCost": 83317
+  },
+  {
+   "threshold": 0.16,
+   "recall": 96.2,
+   "falseAlarmsPer1k": 11.35,
+   "reviewCost": 66777,
+   "missedFraud": 13338,
+   "totalCost": 80115
+  },
+  {
+   "threshold": 0.17,
+   "recall": 96.2,
+   "falseAlarmsPer1k": 10.67,
+   "reviewCost": 63753,
+   "missedFraud": 13540,
+   "totalCost": 77293
+  },
+  {
+   "threshold": 0.18,
+   "recall": 96.1,
+   "falseAlarmsPer1k": 10.06,
+   "reviewCost": 61051,
+   "missedFraud": 13744,
+   "totalCost": 74795
+  },
+  {
+   "threshold": 0.19,
+   "recall": 96,
+   "falseAlarmsPer1k": 9.52,
+   "reviewCost": 58627,
+   "missedFraud": 13952,
+   "totalCost": 72579
+  },
+  {
+   "threshold": 0.2,
+   "recall": 95.9,
+   "falseAlarmsPer1k": 9.03,
+   "reviewCost": 56442,
+   "missedFraud": 14163,
+   "totalCost": 70605
+  },
+  {
+   "threshold": 0.21,
+   "recall": 95.8,
+   "falseAlarmsPer1k": 8.58,
+   "reviewCost": 54463,
+   "missedFraud": 14377,
+   "totalCost": 68840
+  },
+  {
+   "threshold": 0.22,
+   "recall": 95.7,
+   "falseAlarmsPer1k": 8.18,
+   "reviewCost": 52662,
+   "missedFraud": 14594,
+   "totalCost": 67256
+  },
+  {
+   "threshold": 0.23,
+   "recall": 95.7,
+   "falseAlarmsPer1k": 7.81,
+   "reviewCost": 51015,
+   "missedFraud": 14815,
+   "totalCost": 65830
+  },
+  {
+   "threshold": 0.24,
+   "recall": 95.6,
+   "falseAlarmsPer1k": 7.47,
+   "reviewCost": 49502,
+   "missedFraud": 15039,
+   "totalCost": 64541
+  },
+  {
+   "threshold": 0.25,
+   "recall": 95.5,
+   "falseAlarmsPer1k": 7.16,
+   "reviewCost": 48106,
+   "missedFraud": 15266,
+   "totalCost": 63372
+  },
+  {
+   "threshold": 0.26,
+   "recall": 95.4,
+   "falseAlarmsPer1k": 6.87,
+   "reviewCost": 46813,
+   "missedFraud": 15497,
+   "totalCost": 62310
+  },
+  {
+   "threshold": 0.27,
+   "recall": 95.3,
+   "falseAlarmsPer1k": 6.61,
+   "reviewCost": 45609,
+   "missedFraud": 15731,
+   "totalCost": 61340
+  },
+  {
+   "threshold": 0.28,
+   "recall": 95.2,
+   "falseAlarmsPer1k": 6.36,
+   "reviewCost": 44484,
+   "missedFraud": 15969,
+   "totalCost": 60453
+  },
+  {
+   "threshold": 0.29,
+   "recall": 95.1,
+   "falseAlarmsPer1k": 6.12,
+   "reviewCost": 43429,
+   "missedFraud": 16210,
+   "totalCost": 59639
+  },
+  {
+   "threshold": 0.3,
+   "recall": 95,
+   "falseAlarmsPer1k": 5.9,
+   "reviewCost": 42436,
+   "missedFraud": 16455,
+   "totalCost": 58891
+  },
+  {
+   "threshold": 0.31,
+   "recall": 94.9,
+   "falseAlarmsPer1k": 5.69,
+   "reviewCost": 41499,
+   "missedFraud": 16704,
+   "totalCost": 58203
+  },
+  {
+   "threshold": 0.32,
+   "recall": 94.8,
+   "falseAlarmsPer1k": 5.5,
+   "reviewCost": 40611,
+   "missedFraud": 16956,
+   "totalCost": 57567
+  },
+  {
+   "threshold": 0.33,
+   "recall": 94.7,
+   "falseAlarmsPer1k": 5.31,
+   "reviewCost": 39767,
+   "missedFraud": 17212,
+   "totalCost": 56979
+  },
+  {
+   "threshold": 0.34,
+   "recall": 94.6,
+   "falseAlarmsPer1k": 5.13,
+   "reviewCost": 38964,
+   "missedFraud": 17472,
+   "totalCost": 56436
+  },
+  {
+   "threshold": 0.35,
+   "recall": 94.5,
+   "falseAlarmsPer1k": 4.96,
+   "reviewCost": 38198,
+   "missedFraud": 17736,
+   "totalCost": 55934
+  },
+  {
+   "threshold": 0.36,
+   "recall": 94.4,
+   "falseAlarmsPer1k": 4.8,
+   "reviewCost": 37464,
+   "missedFraud": 18004,
+   "totalCost": 55468
+  },
+  {
+   "threshold": 0.37,
+   "recall": 94.3,
+   "falseAlarmsPer1k": 4.65,
+   "reviewCost": 36762,
+   "missedFraud": 18277,
+   "totalCost": 55039
+  },
+  {
+   "threshold": 0.38,
+   "recall": 94.1,
+   "falseAlarmsPer1k": 4.5,
+   "reviewCost": 36087,
+   "missedFraud": 18553,
+   "totalCost": 54640
+  },
+  {
+   "threshold": 0.39,
+   "recall": 94,
+   "falseAlarmsPer1k": 4.36,
+   "reviewCost": 35439,
+   "missedFraud": 18833,
+   "totalCost": 54272
+  },
+  {
+   "threshold": 0.4,
+   "recall": 93.9,
+   "falseAlarmsPer1k": 4.22,
+   "reviewCost": 34815,
+   "missedFraud": 19118,
+   "totalCost": 53933
+  },
+  {
+   "threshold": 0.41,
+   "recall": 93.8,
+   "falseAlarmsPer1k": 4.09,
+   "reviewCost": 34213,
+   "missedFraud": 19407,
+   "totalCost": 53620
+  },
+  {
+   "threshold": 0.42,
+   "recall": 93.7,
+   "falseAlarmsPer1k": 3.97,
+   "reviewCost": 33632,
+   "missedFraud": 19700,
+   "totalCost": 53332
+  },
+  {
+   "threshold": 0.43,
+   "recall": 93.5,
+   "falseAlarmsPer1k": 3.84,
+   "reviewCost": 33071,
+   "missedFraud": 19998,
+   "totalCost": 53069
+  },
+  {
+   "threshold": 0.44,
+   "recall": 93.4,
+   "falseAlarmsPer1k": 3.73,
+   "reviewCost": 32529,
+   "missedFraud": 20300,
+   "totalCost": 52829
+  },
+  {
+   "threshold": 0.45,
+   "recall": 93.3,
+   "falseAlarmsPer1k": 3.65,
+   "reviewCost": 32164,
+   "missedFraud": 20792,
+   "totalCost": 52956
+  },
+  {
+   "threshold": 0.46,
+   "recall": 93.1,
+   "falseAlarmsPer1k": 3.57,
+   "reviewCost": 31807,
+   "missedFraud": 21436,
+   "totalCost": 53243
+  },
+  {
+   "threshold": 0.47,
+   "recall": 93,
+   "falseAlarmsPer1k": 3.5,
+   "reviewCost": 31459,
+   "missedFraud": 22154,
+   "totalCost": 53613
+  },
+  {
+   "threshold": 0.48,
+   "recall": 92.9,
+   "falseAlarmsPer1k": 3.43,
+   "reviewCost": 31119,
+   "missedFraud": 22933,
+   "totalCost": 54052
+  },
+  {
+   "threshold": 0.49,
+   "recall": 92.7,
+   "falseAlarmsPer1k": 3.36,
+   "reviewCost": 30785,
+   "missedFraud": 23765,
+   "totalCost": 54550
+  },
+  {
+   "threshold": 0.5,
+   "recall": 92.6,
+   "falseAlarmsPer1k": 3.29,
+   "reviewCost": 30459,
+   "missedFraud": 24641,
+   "totalCost": 55100
+  },
+  {
+   "threshold": 0.51,
+   "recall": 92.4,
+   "falseAlarmsPer1k": 3.22,
+   "reviewCost": 30138,
+   "missedFraud": 25560,
+   "totalCost": 55698
+  },
+  {
+   "threshold": 0.52,
+   "recall": 92.3,
+   "falseAlarmsPer1k": 3.16,
+   "reviewCost": 29824,
+   "missedFraud": 26517,
+   "totalCost": 56341
+  },
+  {
+   "threshold": 0.53,
+   "recall": 92.1,
+   "falseAlarmsPer1k": 3.1,
+   "reviewCost": 29516,
+   "missedFraud": 27509,
+   "totalCost": 57025
+  },
+  {
+   "threshold": 0.54,
+   "recall": 91.9,
+   "falseAlarmsPer1k": 3.03,
+   "reviewCost": 29214,
+   "missedFraud": 28535,
+   "totalCost": 57749
+  },
+  {
+   "threshold": 0.55,
+   "recall": 91.8,
+   "falseAlarmsPer1k": 2.97,
+   "reviewCost": 28917,
+   "missedFraud": 29592,
+   "totalCost": 58509
+  },
+  {
+   "threshold": 0.56,
+   "recall": 91.6,
+   "falseAlarmsPer1k": 2.91,
+   "reviewCost": 28625,
+   "missedFraud": 30680,
+   "totalCost": 59305
+  },
+  {
+   "threshold": 0.57,
+   "recall": 91.4,
+   "falseAlarmsPer1k": 2.86,
+   "reviewCost": 28339,
+   "missedFraud": 31796,
+   "totalCost": 60135
+  },
+  {
+   "threshold": 0.58,
+   "recall": 91.3,
+   "falseAlarmsPer1k": 2.8,
+   "reviewCost": 28057,
+   "missedFraud": 32941,
+   "totalCost": 60998
+  },
+  {
+   "threshold": 0.59,
+   "recall": 91.1,
+   "falseAlarmsPer1k": 2.74,
+   "reviewCost": 27780,
+   "missedFraud": 34112,
+   "totalCost": 61892
+  },
+  {
+   "threshold": 0.6,
+   "recall": 90.9,
+   "falseAlarmsPer1k": 2.69,
+   "reviewCost": 27507,
+   "missedFraud": 35309,
+   "totalCost": 62816
+  },
+  {
+   "threshold": 0.61,
+   "recall": 90.7,
+   "falseAlarmsPer1k": 2.64,
+   "reviewCost": 27239,
+   "missedFraud": 36530,
+   "totalCost": 63769
+  },
+  {
+   "threshold": 0.62,
+   "recall": 90.5,
+   "falseAlarmsPer1k": 2.58,
+   "reviewCost": 26974,
+   "missedFraud": 37777,
+   "totalCost": 64751
+  },
+  {
+   "threshold": 0.63,
+   "recall": 90.3,
+   "falseAlarmsPer1k": 2.53,
+   "reviewCost": 26714,
+   "missedFraud": 39047,
+   "totalCost": 65761
+  },
+  {
+   "threshold": 0.64,
+   "recall": 90.2,
+   "falseAlarmsPer1k": 2.48,
+   "reviewCost": 26458,
+   "missedFraud": 40339,
+   "totalCost": 66797
+  },
+  {
+   "threshold": 0.65,
+   "recall": 90,
+   "falseAlarmsPer1k": 2.43,
+   "reviewCost": 26206,
+   "missedFraud": 41654,
+   "totalCost": 67860
+  },
+  {
+   "threshold": 0.66,
+   "recall": 89.8,
+   "falseAlarmsPer1k": 2.38,
+   "reviewCost": 25957,
+   "missedFraud": 42992,
+   "totalCost": 68949
+  },
+  {
+   "threshold": 0.67,
+   "recall": 89.5,
+   "falseAlarmsPer1k": 2.34,
+   "reviewCost": 25713,
+   "missedFraud": 44349,
+   "totalCost": 70062
+  },
+  {
+   "threshold": 0.68,
+   "recall": 89.3,
+   "falseAlarmsPer1k": 2.29,
+   "reviewCost": 25471,
+   "missedFraud": 45729,
+   "totalCost": 71200
+  },
+  {
+   "threshold": 0.69,
+   "recall": 89.1,
+   "falseAlarmsPer1k": 2.24,
+   "reviewCost": 25233,
+   "missedFraud": 47129,
+   "totalCost": 72362
+  },
+  {
+   "threshold": 0.7,
+   "recall": 88.9,
+   "falseAlarmsPer1k": 2.2,
+   "reviewCost": 24998,
+   "missedFraud": 48549,
+   "totalCost": 73547
+  },
+  {
+   "threshold": 0.71,
+   "recall": 88.7,
+   "falseAlarmsPer1k": 2.16,
+   "reviewCost": 24767,
+   "missedFraud": 49989,
+   "totalCost": 74756
+  },
+  {
+   "threshold": 0.72,
+   "recall": 88.4,
+   "falseAlarmsPer1k": 2.11,
+   "reviewCost": 24538,
+   "missedFraud": 51449,
+   "totalCost": 75987
+  },
+  {
+   "threshold": 0.73,
+   "recall": 88.2,
+   "falseAlarmsPer1k": 2.07,
+   "reviewCost": 24313,
+   "missedFraud": 52927,
+   "totalCost": 77240
+  },
+  {
+   "threshold": 0.74,
+   "recall": 88,
+   "falseAlarmsPer1k": 2.03,
+   "reviewCost": 24090,
+   "missedFraud": 54425,
+   "totalCost": 78515
+  },
+  {
+   "threshold": 0.75,
+   "recall": 87.7,
+   "falseAlarmsPer1k": 1.99,
+   "reviewCost": 23870,
+   "missedFraud": 55941,
+   "totalCost": 79811
+  },
+  {
+   "threshold": 0.76,
+   "recall": 87.5,
+   "falseAlarmsPer1k": 1.95,
+   "reviewCost": 23653,
+   "missedFraud": 57476,
+   "totalCost": 81129
+  },
+  {
+   "threshold": 0.77,
+   "recall": 87.2,
+   "falseAlarmsPer1k": 1.91,
+   "reviewCost": 23438,
+   "missedFraud": 59029,
+   "totalCost": 82467
+  },
+  {
+   "threshold": 0.78,
+   "recall": 87,
+   "falseAlarmsPer1k": 1.87,
+   "reviewCost": 23226,
+   "missedFraud": 60600,
+   "totalCost": 83826
+  },
+  {
+   "threshold": 0.79,
+   "recall": 86.7,
+   "falseAlarmsPer1k": 1.84,
+   "reviewCost": 23017,
+   "missedFraud": 62187,
+   "totalCost": 85204
+  },
+  {
+   "threshold": 0.8,
+   "recall": 86.4,
+   "falseAlarmsPer1k": 1.8,
+   "reviewCost": 22809,
+   "missedFraud": 63794,
+   "totalCost": 86603
+  },
+  {
+   "threshold": 0.81,
+   "recall": 86.2,
+   "falseAlarmsPer1k": 1.77,
+   "reviewCost": 22604,
+   "missedFraud": 65417,
+   "totalCost": 88021
+  },
+  {
+   "threshold": 0.82,
+   "recall": 85.9,
+   "falseAlarmsPer1k": 1.73,
+   "reviewCost": 22402,
+   "missedFraud": 67057,
+   "totalCost": 89459
+  },
+  {
+   "threshold": 0.83,
+   "recall": 85.6,
+   "falseAlarmsPer1k": 1.7,
+   "reviewCost": 22201,
+   "missedFraud": 68714,
+   "totalCost": 90915
+  },
+  {
+   "threshold": 0.84,
+   "recall": 85.3,
+   "falseAlarmsPer1k": 1.66,
+   "reviewCost": 22002,
+   "missedFraud": 70388,
+   "totalCost": 92390
+  },
+  {
+   "threshold": 0.85,
+   "recall": 85,
+   "falseAlarmsPer1k": 1.63,
+   "reviewCost": 21805,
+   "missedFraud": 72079,
+   "totalCost": 93884
+  },
+  {
+   "threshold": 0.86,
+   "recall": 84.7,
+   "falseAlarmsPer1k": 1.6,
+   "reviewCost": 21611,
+   "missedFraud": 73786,
+   "totalCost": 95397
+  },
+  {
+   "threshold": 0.87,
+   "recall": 84.4,
+   "falseAlarmsPer1k": 1.57,
+   "reviewCost": 21418,
+   "missedFraud": 75509,
+   "totalCost": 96927
+  },
+  {
+   "threshold": 0.88,
+   "recall": 84.1,
+   "falseAlarmsPer1k": 1.53,
+   "reviewCost": 21226,
+   "missedFraud": 77249,
+   "totalCost": 98475
+  },
+  {
+   "threshold": 0.89,
+   "recall": 83.8,
+   "falseAlarmsPer1k": 1.5,
+   "reviewCost": 21036,
+   "missedFraud": 79005,
+   "totalCost": 100041
+  },
+  {
+   "threshold": 0.9,
+   "recall": 83.4,
+   "falseAlarmsPer1k": 1.47,
+   "reviewCost": 20848,
+   "missedFraud": 80776,
+   "totalCost": 101624
+  },
+  {
+   "threshold": 0.91,
+   "recall": 83.1,
+   "falseAlarmsPer1k": 1.45,
+   "reviewCost": 20661,
+   "missedFraud": 82564,
+   "totalCost": 103225
+  },
+  {
+   "threshold": 0.92,
+   "recall": 82.8,
+   "falseAlarmsPer1k": 1.42,
+   "reviewCost": 20476,
+   "missedFraud": 84367,
+   "totalCost": 104843
+  },
+  {
+   "threshold": 0.93,
+   "recall": 82.4,
+   "falseAlarmsPer1k": 1.39,
+   "reviewCost": 20292,
+   "missedFraud": 86186,
+   "totalCost": 106478
+  },
+  {
+   "threshold": 0.94,
+   "recall": 82.1,
+   "falseAlarmsPer1k": 1.36,
+   "reviewCost": 20109,
+   "missedFraud": 88020,
+   "totalCost": 108129
+  },
+  {
+   "threshold": 0.95,
+   "recall": 81.7,
+   "falseAlarmsPer1k": 1.33,
+   "reviewCost": 19928,
+   "missedFraud": 89870,
+   "totalCost": 109798
+  }
+ ]
+}
