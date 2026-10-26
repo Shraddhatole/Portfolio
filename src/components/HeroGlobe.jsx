@@ -106,14 +106,14 @@ export default function HeroGlobe() {
       raf = requestAnimationFrame(loop)
     }
 
-    resize()
-    window.addEventListener('resize', resize)
+    // size from layout; static (reduced-motion) frame is redrawn whenever size changes
+    const ro = new ResizeObserver(() => { resize(); if (reduce) draw(0) })
+    ro.observe(canvas)
     const io = new IntersectionObserver(([e]) => { visible = e.isIntersecting })
     io.observe(canvas)
-    if (reduce) draw(0)
-    else raf = requestAnimationFrame(loop)
+    if (!reduce) raf = requestAnimationFrame(loop)
 
-    return () => { cancelAnimationFrame(raf); io.disconnect(); window.removeEventListener('resize', resize) }
+    return () => { cancelAnimationFrame(raf); io.disconnect(); ro.disconnect() }
   }, [])
 
   return <canvas ref={ref} aria-hidden="true" />
